@@ -1,10 +1,22 @@
+import React from 'react'
 
+import Header from './components/Header/Header';
+import FirstSection from './sections/firstSection/FirstSection';
+
+import './App.css';
 
 function App() {
 
   return (
     <>
-      <h1>App</h1>
+    <div className="background">
+      <Header />
+      <div className="scroll">
+        <FirstSection />
+      </div>
+      
+    </div>
+    
     </>
   )
 }
