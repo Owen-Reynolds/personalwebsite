@@ -1,14 +1,19 @@
-.holder{
+.firstSectionContainer{
+    display: flex;
+}
+
+.firstSectionContent{
     display: flex;
     flex-direction: column;
+    font-family: "Orbitron", sans-serif;
 }
 
-.testing{
-    height: 300vh;
-    background-color: red;
+.firstSectionContent h2{
+    font-size: 2vw;
+    margin-bottom: 1rem;
+    color: #00FF00;
 }
 
-.testingagain{
-    height: 300vh;
-    background-color: blue;
+.firstSectionContent p{
+    color: #FF007F;
 }

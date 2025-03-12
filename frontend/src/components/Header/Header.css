@@ -7,14 +7,58 @@
     align-items: center;
     width: 40%;
     height: 100%;
+    border-right: 1px solid #00FFFF;
+    padding-bottom: 3%;
 }
 
-.photoContainer{
-    border: 2px solid black;
+.navSection{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.navSection h4{
+    font-family: "Orbitron", sans-serif;
+    color: #FF007F;
+    margin: 4%;
+}
+
+.navSection h4:hover{
+    text-shadow: 0 0 15px #FF007F, 0 0 30px #FF007F, 0 0 45px #FF007F;
+    cursor: pointer;
+}
+
+.photoContainer {
+    border: 2px solid #00FFFF; /* Neon cyan border */
     border-radius: 50%;
     width: 20vw;
     height: 20vw;
-    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevents any image overflow */
+    position: relative;
+    margin: 5% auto; /* Centers the container horizontally */
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.photoContainer:hover {
+    box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF, 0 0 45px #00FFFF;
+}
+
+.photoContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.photoContainer:hover img {
+    filter: brightness(1.2);
 }
 
 .headerTextContainer{
@@ -24,12 +68,43 @@
 }
 
 .headerTextContainer h2{
+    color: #00FF00;
+    font-family: "Orbitron", sans-serif;
     margin: 0;
     font-size: 2vw;
     margin-top: 5%;
 }
 
-.headerTextContainer p{
-    margin: 0;
+.headerTextContainer h2:hover{
+    text-shadow: 0 0 15px #00FF00, 0 0 30px #00FF00, 0 0 45px #00FF00;
+}
+
+.headerTextContainer h4{
+    color: #FF007F;
+    font-family: "Orbitron", sans-serif;
     font-size: 1.5vw;
+}
+
+.headerTextContainer h4:hover{
+    text-shadow: 0 0 15px #FF007F, 0 0 30px #FF007F, 0 0 45px #FF007F;
+} 
+
+.mediaIcons{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mediaIcons img{
+    width: 3vw;
+    height: 3vw;
+    background-color: #00FFFF;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.mediaIcons img:hover{
+    box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF, 0 0 45px #00FFFF;
+    cursor: pointer;
 }
