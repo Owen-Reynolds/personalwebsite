@@ -76,17 +76,19 @@
     justify-content: space-around;
 }
 
-.mediaIcons img{
+.mediaIcons img, .mediaIcons i{
     width: 3vw;
     height: 3vw;
-    background-color: #00FFFF;
-    padding: 2px;
-    border-radius: 2px;
+    font-size: 3vw;
+    color: white;
 }
 
-.mediaIcons img:hover{
-    box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF, 0 0 45px #00FFFF;
+.mediaIcons img:hover, .mediaIcons i:hover{
     cursor: pointer;
+}
+
+.githubWhite{
+    background-color: grey;
 }
 
 .navSection{

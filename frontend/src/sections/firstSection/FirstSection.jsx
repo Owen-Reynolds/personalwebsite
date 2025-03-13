@@ -8,7 +8,7 @@ export default function FirstSection() {
                 <h2>Hello World, I'm Owen</h2>
                 <p>
                     I am currently a junior at Ashland University pursuing a B.S. in Computer Science. 
-                    I am passionate about software engineering, web development, and AI. 
+                    I am passionate about software engineering, web development, and Artifical Intellegence. 
                     I also completed my A.A. in Business Administration prior to attending Ashland University. 
                     In my free time, I enjoy exercising, spending time outdoors, and playing basketball. 
                 </p>
@@ -20,7 +20,7 @@ export default function FirstSection() {
                 <p>
                     Over the past few years, I have developed a strong foundation in the world of Computer Science.
                     In this time I have learned a variety of programming languages, tools, and concepts. I have also completed
-                    classes in data structures, database management, and the basics of artificial intelligence.
+                    classes in data structures, database management, and artificial intelligence.
                 </p>
             </div>
         </div>

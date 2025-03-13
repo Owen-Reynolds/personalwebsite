@@ -22,7 +22,7 @@ export default function SecondSection() {
             <h2 className="secondSectionTitle">Eduation</h2>
             <WorkCard title="Ashland University" company="B.S. Computer Science" date="Expected Graduation: May 2026"
             description="Currently pursuing a Bachelor of Science in Computer Science. 
-            Participated in a variety of extracurriculars including the Computer Science Club, ACM Club and Esports Team.
+            Participated in a variety of extracurriculars including Technology Lead of the Computer Science Club, Member of the ACM Club and Fortnite Captain for the Esports Team.
             I am also a Dean's Scholar and a member of the Choose Ohio First Scholarship Program.
             I currently hold a 3.9 GPA, and have been on the Dean's List every semester."
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
@@ -32,8 +32,8 @@ export default function SecondSection() {
             skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
             />
             <WorkCard title="North Central State College" company="A.A. Business Administration" date="08/2021-05/2023" 
-            description="I obtained my Associates of Arts degree in business administration from NCSC.
-            This was completed during my junior and senior year of high school apart of the College-Now Program.
+            description="I obtained my Associates of Arts degree in business administration from NCSC while
+            attending my junior and senior year of high school apart of the College-Now Program.
             I completed this degree with a 3.9 GPA and took many classes including microeconomics, finacial accounting, and public speaking.
             "
             
