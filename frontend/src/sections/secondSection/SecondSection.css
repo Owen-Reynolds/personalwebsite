@@ -1,0 +1,43 @@
+.secondSectionTitle{
+    color: #00FF00;
+}
+
+.workCardContainer{
+    display: flex;
+    background-color: #212121;
+    margin-bottom: 5%;
+}
+
+.workCardContent{
+    padding-left:3%;
+    padding-right: 3%;
+}
+
+.workTitle{
+    color: #00FFFF;
+    font-size: 2vw;
+    
+}
+
+.workCompany{
+    color: #00FFFF;
+}
+
+.workDate{
+    color:#00FFFF
+}
+
+.workDescription{
+    color: #FF007F;
+}
+
+.workSkillsContainer{
+    display: flex;
+    margin-bottom: 5%;
+    gap: 10px;
+}
+
+.workSkillsContainer img{
+    width: 4vw;
+    height: 4vw;
+}

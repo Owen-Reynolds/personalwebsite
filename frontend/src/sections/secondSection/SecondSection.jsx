@@ -1,0 +1,68 @@
+import './SecondSection.css';
+
+export default function SecondSection() {
+    return(
+    <>
+    <div className="secondSectionContainer">
+        <div className="secondSectionContent">
+            <h2 className="secondSectionTitle">Prior Work</h2>
+            <WorkCard title="Tech Support" company="Sportsman's Den | Shelby Ohio" date="03/2021 - 08/2024"
+            description="Thoroughly developed and enhanced online product listings across company and third-party websites.
+            Worked on-site design and functionality renovations to improve user experience and engagement.  
+            Automated repetitive busy work by web scraping with Python.
+            Conducted trend analysis and keyword research to drive targeted traffic and improve site visibility." 
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
+          
+            />
+
+            <h2 className="secondSectionTitle">Eduation</h2>
+            <WorkCard title="Ashland University" company="B.S. Computer Science" date="Expected Graduation: May 2026"
+            description="Currently pursuing a Bachelor of Science in Computer Science. 
+            Participated in a variety of extracurriculars including the Computer Science Club, ACM Club and Esports Team.
+            I am also a Dean's Scholar and a member of the Choose Ohio First Scholarship Program.
+            I currently hold a 3.9 GPA, and have been on the Dean's List every semester."
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+            />
+            <WorkCard title="North Central State College" company="A.A. Business Administration" date="08/2021-05/2023" 
+            description="I obtained my Associates of Arts degree in business administration from NCSC.
+            This was completed during my junior and senior year of high school apart of the College-Now Program.
+            I completed this degree with a 3.9 GPA and took many classes including microeconomics, finacial accounting, and public speaking.
+            "
+            
+            />
+        </div>
+    </div>
+    </>
+    );
+}
+
+function WorkCard(props){
+
+    return(
+        <div className="workCardContainer">
+            <div className="workCardContent">
+                <h3 className="workTitle">{props.title}</h3>
+                <h4 className="workCompany">{props.company}</h4>
+                <h5 className="workDate">{props.date}</h5>
+                <p className="workDescription">{props.description}</p>
+                {props.skillOne==null ? <div /> : 
+                <div className="workSkillsContainer">
+                    <img src={props.skillOne} alt="" />
+                    <img src={props.skillTwo} alt="" />
+                    <img src={props.skillThree} alt="" />
+                    <img src={props.skillFour} alt="" />
+                    <img src={props.skillFive} alt="" />
+                </div>
+                }
+            </div>
+        </div>
+    )
+}

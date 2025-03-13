@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #121212;
     margin-top: 2%;
+    font-family: "Orbitron", sans-serif;
 }
 
 .background{
@@ -16,5 +17,6 @@ body{
 .scroll{
     width: 60%;
     overflow-y: auto;
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
