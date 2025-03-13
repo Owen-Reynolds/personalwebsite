@@ -10,25 +10,6 @@
     overflow-y: hidden;
 }
 
-.navSection{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 3%;
-}
-
-.navSection h4{
-    font-family: "Orbitron", sans-serif;
-    color: #FF007F;
-    margin: 4%;
-}
-
-.navSection h4:hover{
-    text-shadow: 0 0 15px #FF007F, 0 0 30px #FF007F, 0 0 45px #FF007F;
-    cursor: pointer;
-}
-
 .photoContainer {
     border: 2px solid #00FFFF; /* Neon cyan border */
     border-radius: 50%;
@@ -105,5 +86,26 @@
 
 .mediaIcons img:hover{
     box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF, 0 0 45px #00FFFF;
+    cursor: pointer;
+}
+
+.navSection{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.navSection h4{
+    font-size: 1.5vw;
+    font-family: "Orbitron", sans-serif;
+    color: #FF007F;
+    margin: 0;
+}
+
+.navSection h4:hover{
+    text-shadow: 0 0 15px #FF007F, 0 0 30px #FF007F, 0 0 45px #FF007F;
     cursor: pointer;
 }
