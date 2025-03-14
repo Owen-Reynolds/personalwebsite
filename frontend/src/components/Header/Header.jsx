@@ -23,7 +23,8 @@ export default function Header() {
             <div className="navSection">
                 <h4>About</h4>
                 <h4>Work</h4>
-                <h4>Life</h4>
+                <h4>Education</h4>
+                <h4>Projects</h4>
             </div>
         </div>
     )

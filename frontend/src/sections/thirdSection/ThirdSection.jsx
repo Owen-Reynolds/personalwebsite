@@ -6,6 +6,7 @@ export default function ThirdSection(){
     <div className="lifeSectionContainer">
         <div className="lifeSectionContent">
             <h2 className="lifeSectionTitle">Life</h2>
+
         </div>
     </div>
     </>

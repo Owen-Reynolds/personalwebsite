@@ -28,7 +28,7 @@ export default function SecondSection() {
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
             skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
             />
             <WorkCard title="North Central State College" company="A.A. Business Administration" date="08/2021-05/2023" 
@@ -36,7 +36,18 @@ export default function SecondSection() {
             attending my junior and senior year of high school apart of the College-Now Program.
             I completed this degree with a 3.9 GPA and took many classes including microeconomics, finacial accounting, and public speaking.
             "
-            
+            />
+            <h2 className="secondSectionTitle">Projects</h2>
+            <WorkCard title="Vitality Church Website" company="Source Code will be public upon completion" date="02/2025 - 04/2025"
+            description="Team lead for project that was assigned in conjuction with an advanced web programming class.
+            The purpose of this project was to create an improved website for Vitality Church of Mentor, Ohio. 
+            The website is being built from the ground up with improved frontend design and functionallity compared to the older version.
+            "
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
             />
         </div>
     </div>
