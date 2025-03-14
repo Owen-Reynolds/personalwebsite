@@ -49,6 +49,11 @@ export default function SecondSection() {
             skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
             skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
             />
+            <WorkCard title="Portfolio Website" company="Source Code on Github" date="03/2025" 
+            description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
+            I wanted to create somthing that seemed futuristic yet simple and easy to navigate.
+            The website includes information about me, my prior work experience, education, and projects.
+            "/>
         </div>
     </div>
     </>
