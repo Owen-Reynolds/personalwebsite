@@ -19,12 +19,12 @@ export default function SecondSection() {
           
             />
 
-            <h2 className="secondSectionTitle">Eduation</h2>
+            <h2 className="secondSectionTitle">Education</h2>
             <WorkCard title="Ashland University" company="B.S. Computer Science" date="Expected Graduation: May 2026"
             description="Currently pursuing a Bachelor of Science in Computer Science. 
             Participated in a variety of extracurriculars including Technology Lead of the Computer Science Club, Member of the ACM Club and Fortnite Captain for the Esports Team.
             I am also a Dean's Scholar and a member of the Choose Ohio First Scholarship Program.
-            I currently hold a 3.9 GPA, and have been on the Dean's List every semester."
+            I currently hold a 3.9 GPA and have been on the Dean's List every semester."
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
             skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -35,16 +35,15 @@ export default function SecondSection() {
             
             />
             <WorkCard title="North Central State College" company="A.A. Business Administration" date="08/2021-05/2023" 
-            description="I obtained my Associates of Arts degree in business administration from NCSC while
-            attending my junior and senior year of high school apart of the College-Now Program.
-            I completed this degree with a 3.9 GPA and took many classes including microeconomics, finacial accounting, and public speaking.
+            description="I obtained my Associate of Arts degree in Business Administration from NCSC while attending my junior and senior year of high school as part of the College-Now Program.
+            I completed this degree with a 3.9 GPA and took many classes including microeconomics, financial accounting, and public speaking.
             "
             />
             <h2 className="secondSectionTitle">Projects</h2>
             <WorkCard title="Vitality Church Website" company="Source Code will be public upon completion" date="02/2025 - 04/2025"
-            description="Team lead for project that was assigned in conjuction with an advanced web programming class.
+            description="Team lead for project that was assigned in conjunction with an advanced web programming class.
             The purpose of this project was to create an improved website for Vitality Church of Mentor, Ohio. 
-            The website is being built from the ground up with improved frontend design and functionallity compared to the older version.
+            The website is being built from the ground up with improved frontend design and functionality compared to the older version.
             "
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
@@ -54,7 +53,7 @@ export default function SecondSection() {
             />
             <WorkCard title="Portfolio Website" company="Source Code on Github" date="03/2025" 
             description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
-            I wanted to create somthing that seemed futuristic yet simple and easy to navigate.
+            I wanted to create something that seemed futuristic yet simple and easy to navigate.
             The website includes information about me, my prior work experience, education, and projects.
             "
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
