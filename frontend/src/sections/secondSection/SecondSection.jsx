@@ -29,7 +29,10 @@ export default function SecondSection() {
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
             skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+            skillSix="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+            
+            
             />
             <WorkCard title="North Central State College" company="A.A. Business Administration" date="08/2021-05/2023" 
             description="I obtained my Associates of Arts degree in business administration from NCSC while
@@ -53,7 +56,11 @@ export default function SecondSection() {
             description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
             I wanted to create somthing that seemed futuristic yet simple and easy to navigate.
             The website includes information about me, my prior work experience, education, and projects.
-            "/>
+            "
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+            />
         </div>
     </div>
     </>
@@ -61,7 +68,8 @@ export default function SecondSection() {
 }
 
 function WorkCard(props){
-
+    const isValidUrl = (url) => url && typeof url === "string" && url.trim() !== "";
+    const skills=[props.skillOne, props.skillTwo, props.skillThree, props.skillFour, props.skillFive, props.skillSix, props.skillSeven].filter(isValidUrl);
     return(
         <div className="workCardContainer">
             <div className="workCardContent">
@@ -69,16 +77,14 @@ function WorkCard(props){
                 <h4 className="workCompany">{props.company}</h4>
                 <h5 className="workDate">{props.date}</h5>
                 <p className="workDescription">{props.description}</p>
-                {props.skillOne==null ? <div /> : 
-                <div className="workSkillsContainer">
-                    <img src={props.skillOne} alt="" />
-                    <img src={props.skillTwo} alt="" />
-                    <img src={props.skillThree} alt="" />
-                    <img src={props.skillFour} alt="" />
-                    <img src={props.skillFive} alt="" />
-                </div>
-                }
+                {skills.length > 0 && (
+                    <div className="workSkillsContainer">
+                        {skills.map((skill, index) => (
+                            <img key={index} src={skill} onError={(e) => e.target.style.display = 'none'}/>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
-    )
+    );
 }

@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    height: 90vh;
+    height: 96vh;
     overflow-y: hidden;
 }
 
@@ -77,9 +77,9 @@
 }
 
 .mediaIcons img, .mediaIcons i{
-    width: 3vw;
-    height: 3vw;
-    font-size: 3vw;
+    width: 4vw;
+    height: 4vw;
+    font-size: 4vw;
     color: white;
 }
 
@@ -89,25 +89,4 @@
 
 .githubWhite{
     background-color: grey;
-}
-
-.navSection{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 5%;
-}
-
-.navSection h4{
-    font-size: 1.5vw;
-    font-family: "Orbitron", sans-serif;
-    color: #FF007F;
-    margin: 0;
-}
-
-.navSection h4:hover{
-    text-shadow: 0 0 15px #FF007F, 0 0 30px #FF007F, 0 0 45px #FF007F;
-    cursor: pointer;
 }
