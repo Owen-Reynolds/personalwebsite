@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 ;
-import profilepic from '../../assets/IMG_0686.png';
+import profilepic from '../../assets/IMG_0729.jpg';
 
 export default function Header() {
 
