@@ -7,7 +7,6 @@ export default function Header() {
 
     return (
         <div className="headerContainer">
-            
             <div className="photoContainer">
                 <img src={profilepic} alt="" />
             </div>
@@ -16,11 +15,11 @@ export default function Header() {
                 <h4>Aspiring Software Engineer</h4>
             </div>
             <div className="mediaIcons">
-                <i class="devicon-github-original"></i>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/facebook/facebook-original.svg" />
-
+                <a href="https://github.com/Owen-Reynolds"><i class="devicon-github-original"></i></a>
+                <a href="https://www.linkedin.com/in/owen-reynolds-b8870a293/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /></a>
+                <a href="https://x.com/OwxnFN"><i class="devicon-twitter-original"></i></a>
             </div>
+
         </div>
     )
 }

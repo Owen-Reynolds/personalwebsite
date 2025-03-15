@@ -3,23 +3,25 @@
     display: flex;
     top: 0;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 40%;
     height: 96vh;
     overflow-y: hidden;
 }
 
-.photoContainer {
+.photoContainer{
     border: 2px solid #00FFFF; /* Neon cyan border */
     border-radius: 50%;
     width: 20vw;
     height: 20vw;
     display: flex;
     align-items: center;
+    justify-content:space-around;
     overflow: hidden; 
     position: relative;
-    margin: 5% auto; 
+    margin: 0; 
+    margin-bottom: 5%;
     box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF;
     transition: 0.3s ease-in-out;
 }
@@ -50,7 +52,6 @@
     font-family: "Orbitron", sans-serif;
     margin: 0;
     font-size: 2vw;
-    margin-top: 5%;
 }
 
 .headerTextContainer h2:hover{
@@ -74,11 +75,16 @@
     justify-content: space-around;
 }
 
-.mediaIcons img, .mediaIcons i{
+.mediaIcons a{
+    text-decoration: none;
+}
+
+.mediaIcons a img, .mediaIcons a i{
     width: 4vw;
     height: 4vw;
     font-size: 4vw;
     color: white;
+    
 }
 
 .mediaIcons img:hover, .mediaIcons i:hover{
