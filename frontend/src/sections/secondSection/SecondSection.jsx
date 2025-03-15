@@ -43,7 +43,7 @@ export default function SecondSection() {
             <WorkCard title="Vitality Church Website" company="Source Code will be public upon completion" date="02/2025 - 04/2025"
             description="Team lead for project that was assigned in conjunction with an advanced web programming class.
             The purpose of this project was to create an improved website for Vitality Church of Mentor, Ohio. 
-            The website is being built from the ground up with improved frontend design and functionality compared to the older version.
+            The website is being built from the ground up with improved front-end design functionality compared to the older version.
             "
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
