@@ -17,3 +17,11 @@
 .firstSectionContent p{
     color: #FF007F;
 }
+
+@media(max-width: 768px){
+    .firstSectionContent h2{
+        font-size: 3vw;
+        margin-bottom: 1rem;
+        color: #00FF00;
+    }
+}
