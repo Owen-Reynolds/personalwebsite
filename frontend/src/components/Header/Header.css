@@ -94,3 +94,36 @@
 .githubWhite{
     background-color: grey;
 }
+
+@media(max-width: 768px){
+    .headerContainer{
+        display: flex;
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-top: 5%;
+    }
+    .photoContainer {
+        width: 40vw;
+        height: 40vw;
+        margin-bottom: 10%; 
+    }
+
+    .headerTextContainer h2 {
+        font-size: 6vw; 
+    }
+
+    .headerTextContainer h4 {
+        font-size: 4vw; 
+    }
+
+    .mediaIcons {
+        width: 50%; 
+    }
+
+    .mediaIcons a img, .mediaIcons a i {
+        width: 8vw; 
+        height: 8vw;
+        font-size: 8vw; 
+    }
+}
