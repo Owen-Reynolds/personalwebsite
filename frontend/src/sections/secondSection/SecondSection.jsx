@@ -40,7 +40,7 @@ export default function SecondSection() {
             "
             />
             <h2 className="secondSectionTitle">Projects</h2>
-            <WorkCard title="Vitality Church Website" company="Source Code will be public upon completion" date="02/2025 - 04/2025"
+            <WorkCard title="Vitality Church Website" company="vitalitychurch.org" date="02/2025 - 04/2025"
             description="Team lead for project that was assigned in conjunction with an advanced web programming class.
             The purpose of this project was to create an improved website for Vitality Church of Mentor, Ohio. 
             The website is being built from the ground up with improved front-end design functionality compared to the older version.
