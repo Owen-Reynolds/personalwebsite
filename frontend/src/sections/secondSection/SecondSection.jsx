@@ -51,6 +51,13 @@ export default function SecondSection() {
             skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
             skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
             />
+            <WorkCard title="Tesla Website Clone" company="Source Code on Github" date="04/2025" 
+            description="This website is a redesign of the Tesla homepage and was created to further enhance my skills in React. 
+            The website adds more variety to the original Tesla homepage and includes a more engaging user experience.
+            "
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"o
+            />
             <WorkCard title="Portfolio Website" company="Source Code on Github" date="03/2025" 
             description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
             I wanted to create something that seemed futuristic yet simple and easy to navigate.
