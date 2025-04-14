@@ -56,7 +56,7 @@ export default function SecondSection() {
             The website adds more variety to the original Tesla homepage and includes a more engaging user experience.
             "
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"o
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             />
             <WorkCard title="Portfolio Website" company="Source Code on Github" date="03/2025" 
             description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
