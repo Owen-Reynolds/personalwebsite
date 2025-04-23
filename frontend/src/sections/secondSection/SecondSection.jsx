@@ -58,14 +58,13 @@ export default function SecondSection() {
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             />
-            <WorkCard title="Portfolio Website" company="Source Code on Github" date="03/2025" 
-            description="This website was completed over the span of a few days and will showcase my current and future work as a developer.
-            I wanted to create something that seemed futuristic yet simple and easy to navigate.
-            The website includes information about me, my prior work experience, education, and projects.
+            <WorkCard title="Marie Simulator" company="Source Code on Github" date="04/2025" 
+            description="Create a simple Marie Simulator that allows users to run and visualize the execution of 
+            Marie Assembley Code. Includes Registers and Instruction Set to do basic math operations and memory management.
+            The project was created in Java and demonstrates my understanding of the Marie Assembly Language as well as programming 
+            with Java.
             "
-            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
             />
         </div>
     </div>
