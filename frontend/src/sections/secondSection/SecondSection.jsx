@@ -51,14 +51,14 @@ export default function SecondSection() {
             skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
             skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
             />
-            <WorkCard title="Tesla Website Clone" company="Source Code on Github" date="04/2025" 
+            <WorkCard title="Tesla Website Clone" company="github.com/Owen-Reynolds/TeslaClone" date="04/2025" 
             description="This website is a redesign of the Tesla homepage and was created to further enhance my skills in React. 
             The website adds more variety to the original Tesla homepage and includes a more engaging user experience.
             "
             skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             />
-            <WorkCard title="Marie Simulator" company="Source Code on Github" date="04/2025" 
+            <WorkCard title="Marie Simulator" company="github.com/Owen-Reynolds/Marie" date="04/2025" 
             description="Create a simple Marie Simulator that allows users to run and visualize the execution of 
             Marie Assembley Code. Includes Registers and Instruction Set to do basic math operations and memory management.
             The project was created in Java and demonstrates my understanding of the Marie Assembly Language as well as programming 
