@@ -7,6 +7,8 @@ This website was completed over the span of a few days and will showcase my curr
 <img align="left" alt="React" width="80px" styles="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 <img align="left" alt="JavaScript" width="80px" styles="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
 
+<br>
+
 ## Modules
 1. About Me
 2. Prior Work
