@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+## Visit
+[Visit the Site!](https://www.owenreynolds.me/)
+
 ## About
 This website was completed over the span of a few days and will showcase my current and future work as a developer. I wanted to create something that seemed futuristic yet simple and easy to navigate. The website includes information about me, my prior work experience, education, and projects.
 
@@ -15,6 +18,4 @@ This website was completed over the span of a few days and will showcase my curr
 3. Education
 4. Projects
 
-## Visit
-[Visit the Site!](https://www.owenreynolds.me/)
 
