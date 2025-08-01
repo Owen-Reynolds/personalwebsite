@@ -41,7 +41,7 @@ export default function SecondSection() {
             />
             <h2 className="secondSectionTitle">Projects</h2>
 
-            <WorkCard title="AYSA Bracket App" company="N/A" date="06/2025 - 07/2025"
+            <WorkCard title="AYSA Bracket App" company="DRM Productions" date="06/2025 - 07/2025"
             description="During my internship with DRM Productions I was given the oppurtunity to create a Bracket 
             Generator for the Appleseed Youth Soccer Association. This is a fullstack app that automates bracket generation
             and create a downloadable pdf file for each bracket. The app also features histiorical bracket tracking to view past 
