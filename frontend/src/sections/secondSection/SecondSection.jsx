@@ -40,6 +40,19 @@ export default function SecondSection() {
             "
             />
             <h2 className="secondSectionTitle">Projects</h2>
+
+            <WorkCard title="AYSA Bracket App" company="N/A" date="06/2025 - 07/2025"
+            description="During my internship with DRM Productions I was given the oppurtunity to create a Bracket 
+            Generator for the Appleseed Youth Soccer Association. This is a fullstack app that automates bracket generation
+            and create a downloadable pdf file for each bracket. The app also features histiorical bracket tracking to view past 
+            brackets. 
+            "
+            skillOne="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+            skillTwo="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+            skillThree="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            skillFour="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            skillFive="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+            />
             <WorkCard title="Vitality Church Website" company="vitalitychurch.org" date="02/2025 - 04/2025"
             description="Team lead for project that was assigned in conjunction with an advanced web programming class.
             The purpose of this project was to create an improved website for Vitality Church of Mentor, Ohio. 
